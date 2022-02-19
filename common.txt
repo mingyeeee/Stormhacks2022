@@ -1,0 +1,599 @@
+and
+or
+but
+both
+nor
+either
+yet
+neither
+so
+whether
+of
+in	
+for	
+to	
+with	
+on	
+as	
+at	
+from	
+by	
+if
+about	
+than	
+into	
+like	
+because	
+after	
+over	
+through	
+while	
+before	
+between	
+since	
+without	
+during	
+under		
+within	
+around	
+against	
+until		
+across	
+out	
+per	
+although	
+among	
+though	
+upon	
+along	
+throughout	
+behind	
+via	
+above	
+beyond	
+towards	
+despite	
+off	
+up	
+near	
+below		
+unless	
+outside	
+toward	
+except	
+inside	
+onto	
+once	
+unlike	
+whilst	
+down	
+amongst	
+alongside	
+besides	
+whereas	
+till	
+past	
+unto	
+beneath	
+vs.	
+beside	
+versus	
+albeit	
+plus	
+en
+underneath	
+amid	
+aboard	
+amidst	
+lest
+atop
+thru	
+notwithstanding	
+opposite	
+circa	
+sans
+whereupon	
+reference	
+nearest
+forth	
+here	
+whither		
+regarding	
+vis-a-vis
+away
+ago
+considering	
+astride	
+howbeit	
+concerning	
+mid
+sine
+thoughout
+offshore
+next
+thro	
+ahead
+upstream
+uphill
+insofar
+inward	
+afore
+the
+a
+an
+this
+these
+that
+those
+some
+all
+any
+each
+every
+another
+many
+more
+much
+my
+your
+our
+her
+his
+their
+out
+up
+off
+down
+over
+around
+on
+away
+along
+in
+through
+upon
+aside
+across
+open
+apart
+unto
+whole
+no
+not
+i
+me
+mine
+myself
+my
+you
+your
+yours
+yourself
+she
+her
+herself
+hers
+he
+his
+himself
+him
+it
+its
+itself
+we
+us
+our
+ourselves
+ours
+they
+them
+their
+theirs
+themselves
+one
+oneself
+one's
+who
+what
+whose
+whom
+whoever
+whomever
+yes
+please
+oh
+well
+yeah
+hi
+hello
+no
+ok
+ah
+uh
+er
+erm
+urgh
+ugh
+aha
+aww
+aw
+eh
+gr
+hm
+ha
+haha
+meh
+wow
+phew
+pst
+psst
+shh
+nah
+yay
+duh
+darn
+boo
+ahem
+bravo
+dang
+eek
+gee
+gosh
+jeez
+woohoo
+ahoy
+argh
+bam
+blah
+cheers
+doh
+hmm
+oops
+woah
+huh
+ouch
+woops
+yikes
+have
+haven't
+has
+hasn't
+had
+hadn't
+having
+be
+am
+are
+aren't
+is
+isn't
+was
+wasn't
+were
+weren't
+being
+get
+gets
+got
+gotten
+getting
+can
+can't
+could
+couldn't
+may
+might
+must
+mustn't
+should
+shouldn't
+will
+would
+wouldn't
+shall
+a bit
+a little
+almost
+apparent
+apparently
+appear
+appeared
+appears
+approximately
+argue
+argued
+argues
+around
+assume
+assumed
+at about
+broadly
+certain amount
+certain extent
+certain level
+claim
+claimed
+claims
+could
+couldn't
+doubt
+doubtful
+essentially
+estimate
+estimated
+fairly
+feel
+feels
+felt
+frequently
+from my perspective
+from our perspective
+from this perspective
+generally
+guess
+i believe
+i figure
+i guess
+i suppose
+i think
+in general
+in most cases
+in most instances
+in my opinon
+in my view
+in our opinion
+in our view
+in this view
+indicate
+indicated
+indicates
+kind of
+largely
+likely
+mainly
+may
+maybe
+might
+mostly
+often
+on the whole
+ought
+perhaps
+plausible
+plausibly
+possible
+possibly
+postulate
+postulated
+postulates
+presumable
+presumably
+probable
+probably
+quite
+rather
+relatively
+roughly
+seems
+should
+slight
+slightly
+something like
+sometimes
+somewhat
+sort of
+suggest
+suggested
+suggests
+suppose
+supposed
+supposes
+suspect
+suspects
+tend to
+tended to
+tends to
+to my knowledge
+typical
+typically
+uncertain
+uncertainly
+unclear
+unclearly
+unlikely
+usually
+would
+wouldn't
+no
+not
+none
+nobody
+noone
+nothing
+nowhere
+never
+n't
+i
+me
+myself
+my
+mine
+this 
+the
+nes (40 sloc) 381 Bytes
+believe
+believed
+believes
+believing
+conclude
+concluded
+concluding
+forget
+forgetting
+forgot
+forgotten
+hope
+hoped
+hopes
+hoping
+knew
+know
+knowing
+known
+knows
+learn
+learned
+learning
+learns
+recognize
+recognized
+recognizing
+remember
+remembered
+remembering
+suppose
+supposed
+supposing
+think
+thinking
+thinks
+thought
+understand
+understanding
+understood
+can
+can't
+could
+couldn't
+may
+might
+must
+mustn't
+should
+shouldn't
+will
+would
+wouldn't
+shall
+a bit
+a little
+almost
+apparent
+apparently
+appear
+appeared
+appears
+approximately
+argue
+argued
+argues
+around
+assume
+assumed
+at about
+broadly
+certain amount
+certain extent
+certain level
+claim
+claimed
+claims
+could
+couldn't
+doubt
+doubtful
+essentially
+estimate
+estimated
+fairly
+feel
+feels
+felt
+frequently
+from my perspective
+from our perspective
+from this perspective
+generally
+guess
+i believe
+i figure
+i guess
+i suppose
+i think
+in general
+in most cases
+in most instances
+in my opinon
+in my view
+in our opinion
+in our view
+in this view
+indicate
+indicated
+indicates
+kind of
+largely
+likely
+mainly
+may
+maybe
+might
+mostly
+often
+on the whole
+ought
+perhaps
+plausible
+plausibly
+possible
+possibly
+postulate
+postulated
+postulates
+presumable
+presumably
+probable
+probably
+quite
+rather
+relatively
+roughly
+seems
+should
+slight
+slightly
+something like
+sometimes
+somewhat
+sort of
+suggest
+suggested
+suggests
+suppose
+supposed
+supposes
+suspect
+suspects
+tend to
+tended to
+tends to
+to my knowledge
+typical
+typically
+uncertain
+uncertainly
+unclear
+unclearly
+unlikely
+usually
+would
+wouldn't
+no
+not
+none
+nobody
+noone
+nothing
+nowhere
+never
+n't
