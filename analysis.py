@@ -47,10 +47,7 @@ text1 = '''
                   <td style="padding:0;">
                     <table role="presentation" style="width:100%;border-collapse:collapse;border:0;border-spacing:0;">
                       
-                  
-
-
-                      
+            
 
                     
 '''                        

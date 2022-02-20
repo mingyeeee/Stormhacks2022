@@ -1,9 +1,13 @@
 # import the necessary packages
+from lib2to3.pygram import Symbols
 import numpy as np
 import pyautogui
 import cv2
 import time
 import os
+from equationidentifier import *
+
+
 
 prevScreen = pyautogui.screenshot()
 prevScreen = cv2.cvtColor(np.array(prevScreen), cv2.COLOR_RGB2BGR)
@@ -41,7 +45,20 @@ while(True):
         returned_value = os.system(cmd)
         # open the output file and read the text
         f = open("out.txt", "r", encoding="utf8")
-        print(f.read())
+        string_format = f.read()
+
+        #checking for equations
+        query = intial_formatter(string_format)
+
+        data_match = sampler("symbols.txt")
+
+        if negative_nums(query) or symbol(query, data_match) == True:
+            #SAVE SCREENSHOT
+
+
+
+
+
     else:
         print("Screen has not changed")
     prevPixelCount = currentPixelCount
