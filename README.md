@@ -10,7 +10,7 @@ Main Features
 
 ## Problem
 
-Many students aren’t the fastest notetakers and the act of note taking can thus it can make lectures less engaging as the student is distracted from participating in class discussions and active thinking during lectures. Thus students are forced to go back to the lecture notes/recording to gather information that has been missed; creates gaps in the learning of students. Moreover our software can show students how what they are learning is relevant in the "real world" and how they might use it in their future careers. 
+Many students aren’t the fastest notetakers and the act of note taking can make lectures less engaging as the student is distracted from participating in class discussions and active thinking during lectures. Thus students are forced to go back to the lecture notes/recording to gather information that has been missed; creates gaps in the learning of students. Moreover our software can show students how what they are learning is relevant in the "real world" and how they might use it in their future careers. 
 
 
 ## Main features 
