@@ -30,7 +30,7 @@ text1 = '''
             <td align="center" style="padding:40px 0 30px 0;background:#70bbd9;">
 
  
-              <img src="logo.jpg" alt="" width="300" style="height:auto;display:block;" />
+              <img src="thumbnail.jpg" alt="" width="300" style="height:auto;display:block;" />
             </td>
           </tr>
           <tr>
@@ -80,10 +80,9 @@ width = "50%"
 
 '''
 
-for file in glob.glob("*.jpg"):
+for file in glob.glob("*.png"):
    
     text1 = text1 + "<center><img src=\"" + file + "\"" + txt2
  
 with open("index.html", "w") as outputfile:
 	outputfile.write(text1)
-
