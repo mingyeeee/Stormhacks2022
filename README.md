@@ -1,17 +1,9 @@
 Stormhacks Hackathon 
 
 # noteAI!
-
-## Table of Contents
-
-Getting started
-Problem 
-Main Features 
-
 ## Problem
 
-Many students aren’t the fastest notetakers and the act of note taking can thus it can make lectures less engaging as the student is distracted from participating in class discussions and active thinking during lectures. Thus students are forced to go back to the lecture notes/recording to gather information that has been missed; creates gaps in the learning of students. Moreover our software can show students how what they are learning is relevant in the "real world" and how they might use it in their future careers. 
-
+The transition from traditional in-person school to online school as a result of the COVID-19 pandemic has been turbulent for many students. Students had to adapt quickly to the new learning environment while navigating pre-existing problems within the classroom, such as having to multitask listening and note-taking, knowledge gaps, and relevancy. noteAI conquers these pre-existing and exacerbated challenges by enhancing the online learning environment to help students achieve their personal best.
 
 ## Main features 
 
