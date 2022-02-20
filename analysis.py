@@ -1,4 +1,6 @@
 import glob
+import json
+
  
 text1 = '''
 <!DOCTYPE html>
@@ -28,7 +30,7 @@ text1 = '''
         <table role="presentation" style="width:602px;border-collapse:collapse;border:1px solid #cccccc;border-spacing:0;text-align:left;">
           <tr>
             <td align="center" style="padding:40px 0 30px 0;background:#47a2a4;">
-              <img src="thumbnail.jpg" alt="" width="200"  style="height:auto;display:block;" />
+              <img src="./images/thumbnail.jpg" alt="" width="200"  style="height:auto;display:block;" />
             </td>
           </tr>
           <tr>
@@ -65,7 +67,7 @@ end = '''
                 <tr>
                   <td style="padding:0;width:50%;" align="left">
                     <p style="margin:0;font-size:14px;line-height:16px;font-family:Arial,sans-serif;color:#ffffff;">
-                      &reg; Someone, Somewhere 2021<br/><a href="http://www.example.com" style="color:#ffffff;text-decoration:underline;">Unsubscribe</a>
+                      &reg; Someone, Somewhere 2021<br/><a href="http://www.example.com" style="color:#ffffff;text-decoration:underline;">StormHacks2022</a>
                     </p>
                   </td>
                   <td style="padding:0;width:50%;" align="right">
@@ -105,6 +107,10 @@ for file in glob.glob("*.png"):
                        
                       </tr>'''
 text1 = text1 + end
+
+with open('./Audio to topic map/nodemap.json', 'r') as json_file:
+    json_load = json.load(json_file)
+print(json_load)
 
 with open("index.html", "w") as outputfile:
 	outputfile.write(text1)
