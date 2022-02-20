@@ -2,6 +2,7 @@ import plotly.graph_objects as go
 import igraph
 from igraph import Graph, EdgeSeq
 import json
+import math
 
 # open json file
 # open json file
@@ -29,29 +30,20 @@ counter = 0
 counter2 = 0
 for edge in E:
     Xe+=[position[edge[0]][0],position[edge[1]][0], None]
-    if counter % 3 == 0:
-        counter +=1
-    Ye+=[2*M-position[edge[0]][1]+(counter+1)*1*10,2*M-position[edge[1]][1]+counter*-1*10, None]
+    if counter == 3:
+        counter2 = 1
+    elif counter == 6:
+        counter2 = 2
+    elif counter == 9:
+        counter2 = 3
+
+    
+    Ye+=[2*M-position[edge[0]][1]-10*counter2,2*M-position[edge[1]][1]-1*counter*10.5, None]
     counter +=1
 
 
 labels = v_label
-fig = go.Figure()
-fig.add_trace(go.Scatter(x=Xe,
-                   y=Ye,
-                   mode='lines',
-                   line=dict(color='rgb(210,210,210)', width=1),
-                   hoverinfo='none'
-                   ))
-fig.add_trace(go.Scatter(x=Xn,
-                  y=Yn,
-                  mode='markers',
-                  name='bla',
-                  
-                  text=labels,
-                  hoverinfo='text',
-                  opacity=0
-                  ))
+
 
 def make_annotations(pos, text, font_size=10, font_color='rgb(0,0,250)'):
     L=len(pos)
@@ -69,13 +61,30 @@ def make_annotations(pos, text, font_size=10, font_color='rgb(0,0,250)'):
         )
     return annotations
 
+fig = go.Figure()
+fig.add_trace(go.Scatter(x=Xe,
+                   y=Ye,
+                   mode='lines',
+                   line=dict(color='rgb(210,210,210)', width=1),
+                   hoverinfo='none'
+                   ))
+fig.add_trace(go.Scatter(x=Xn,
+                  y=Yn,
+                  mode='markers',
+                  name='bla',
+                  
+                  text=labels,
+                  hoverinfo='text',
+                  opacity=0
+                  ))
+
 axis = dict(showline=False, # hide axis line, grid, ticklabels and  title
             zeroline=False,
             showgrid=False,
             showticklabels=False,
             )
 
-fig.update_layout(title= 'Topic Map',
+fig.update_layout(title= f'Topic Map for {v_label[0]}',
               annotations=make_annotations(position, v_label),
               font_size=12,
               showlegend=False,
