@@ -30,3 +30,5 @@ Not sure how what you’re learning is relevant? Automated Knowledge Maps show r
 >The program will then create an html page where all the links and notes (diagrams/equations) are displayed.
 
 ## How it works
+
+noteAI is built using Python, AssemblyAI, OpenCV, and HTML. Wikipedia links are gathered using web scraping through Wikipedia APIs. Using the AssemblyAI live transcribing, the text is parsed, and subject-specific words. Computer vision and optical object detection then compare slides of the lecture material to look for important formulas and keywords. HTML was then used to combine the equations, resources, and the topic map for the lecture to create a user-friendly experience for the student.
