@@ -31,11 +31,12 @@ def symbol(lines, reference_point):
     
     return False
      
-
+#sample run
+""" 
 #brackets, symbols for equations, equals and plus signs, asterisk, units (have spaces surrounding them)
 x = initial_formatter("-1.40 m = (0 m/s)(t) + 0.5(-1.67 m/s?)(t) \n -1.40 m = (0 m/s)(t) + 0.5(-1.67 m/s?)(t)? \n -1.40 m =0 + (-0.835 m/s’)*(t)? \n (-1.40 m)/(-0.835 m/s)? = (t)? \n 1.68 s? = t? \n V1.68 s? = vt?")
 
 
 j = sampler("symbols.txt")
 print(symbol(x,j))
-            
+             """
